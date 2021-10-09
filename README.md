@@ -15,8 +15,7 @@ Fork [this repo]() and clone
 3. after every submit save the info by adding it to an array called (students info) in App.js
 
 ### 2. Delete a student
-Professor x has his own reasons to delete some student from attending his work shop
-1. add an on click function on delete element (in Student.js) to delete a student from the list.
+Professor x has his own reasons to delete some student from attending his work shop, add an on click function on delete element (in Student.js) to delete a student from the list.
 
 
 
