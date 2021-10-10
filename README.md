@@ -18,5 +18,5 @@ Fork [this repo]() and clone
 Professor x has his own reasons to delete some student from attending his work shop, add an on click function on delete element (in Student.js) to delete a student from the list.
 
 ### Challenge 
-create a form for updating students info 🤓�
+create a form for updating students info 🤓
 
