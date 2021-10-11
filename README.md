@@ -14,8 +14,8 @@ Fork [this repo](https://github.com/JoinCODED/Task-react-forms) and clone
 2. add a button to submit these information
 3. add a handle change for the inputs
 4. add a handle submit for the form :
-    a. prevent page from refreshing
-    b. call a function from app and pass the information 
+    1. prevent page from refreshing
+    2. call a function from app and pass the information 
 5. in app create a function that will add the student to an array called (students info)
 
 ### 2. Delete a student
