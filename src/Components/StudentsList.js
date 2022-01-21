@@ -2,11 +2,11 @@ import React from 'react'
 import Student from './Student'
 
 function StudentsList(props) {
-    const list = props.list.map(student =>
-        <Student student={student} />)
+    const listOfStudents = props.list.map(student =>
+        <Student student={student} deleteSudent={props.deleteSudent}  />)
     return (
         <div>
-            {list}
+            {listOfStudents}
         </div>
     )
 }
