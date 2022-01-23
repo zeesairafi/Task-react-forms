@@ -3,15 +3,22 @@ import SideInfo from './SideInfo'
 
 
 
-function Form(addStudent) {
+function Form() {
     const[student, setStudent] = useState({})
+    // const {
+    //     register, 
+    //     handleSubmit,
+    //     formState: {errors}, 
+    // } useForm({resolver: yupResolver(schema)})
+
 
     const handleChange = (e) => {
         setStudent({...student, [e.target.name]: e.target.value})
     }
-    const handleSubmit = (e) => {
+    const handleSubmit = (data) => {
         e.preventDefault()
         addStudent(student)
+        // console.log(data);
     }
     return (
         <div className="form-page">
